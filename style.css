@@ -1,9 +1,14 @@
 :root{
     --cor-de-fundo:#555c6b;
     --branco:#ffffff;
+    --laranja: #EB9800;
+    --fonte-principal: "Poppins";
 }
 body{
-    background-color: var(--cor-de-fundo)
+    background-color: var(--cor-de-fundo);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 .cabeçalho_menu-hamburguer{
 
@@ -20,6 +25,7 @@ background-color: var(--branco);
 display: flex;
 justify-content: space-between;
 align-items: center;
+position: relative;
 }
 .container{
 display: flex;
@@ -31,6 +37,27 @@ align-items: center;
 padding: 1em;
 margin: 1em;
 width: 5em;
-
-
+}
+.container_botao:checked ~.lista-menu{
+    display: block;
+}
+.lista-menu_titulo,
+.lista-menu_item{
+    padding: 16px;
+    background-color: white;
+}
+.lista-menu_link
+{
+-webkit-background-clip: text;
+background-clip: text;
+text-transform: uppercase;
+}
+.lista-menu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    width: 20vw;
+}
+.container_botao{
+    display: none;
 }
