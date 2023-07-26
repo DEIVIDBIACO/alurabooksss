@@ -26,6 +26,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 position: relative;
+
+
 }
 .container{
 display: flex;
@@ -60,4 +62,8 @@ text-transform: uppercase;
 }
 .container_botao{
     display: none;
+}
+.lista-menu{ 
+display: none;
+
 }
