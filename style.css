@@ -1,6 +1,6 @@
 :root{
     --cor-de-fundo:#555c6b;
-    --branco:#ffffff;
+    --branco:#8d8888;
     --laranja: #EB9800;
     --fonte-principal: "Poppins";
 }
@@ -46,7 +46,7 @@ width: 5em;
 .lista-menu_titulo,
 .lista-menu_item{
     padding: 16px;
-    background-color: white;
+    background-color: rgb(136, 134, 134);
 }
 .lista-menu_link
 {
@@ -67,3 +67,48 @@ text-transform: uppercase;
 display: none;
 
 }
+.banner{
+    background-color: #002F52;
+    color: #585a5e;
+    text-align: center;
+  
+}
+.banner-titulo{
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner-texto{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: justify;
+    text-align: center;
+}
+
+.banner-pesquisa {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    background: url("./img/lupa.svg") no-repeat ;
+    background-position: 1em;
+    font-size: 20px;
+    }
+
+
+
+
+
+.carrossel_titulo {
+        color: var(--laranja);
+        background-color: var(--branco);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 1em 0 0.5em 0;
+        }
+           
+    
