@@ -75,11 +75,11 @@ display: none;
 }
 .banner-titulo{
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 .banner-texto{
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 500px;
+    font-size: 90px;
     text-align: justify;
     text-align: center;
 }
