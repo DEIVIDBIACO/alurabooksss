@@ -104,21 +104,45 @@ placeholder="qual sera sua proxima leitura?">
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
   
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+   
   
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
   </div>
-  
+  <div>
+    <div>
+       <div>
+
+       </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
 </section>
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <script>
 const swiper = new Swiper('.swiper', {
   
   spaceBetween: 100,
+slidesPerView: 3,
+
+pagination: {
+    el: '.swiper-pagination',
+    type:'bullets',
+},
+
+
+
+
 });
 
 
