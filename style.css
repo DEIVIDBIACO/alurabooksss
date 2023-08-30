@@ -40,6 +40,7 @@ padding: 1em;
 margin: 1em;
 width: 5em;
 }
+
 .container_botao:checked ~.lista-menu{
     display: block;
 }
@@ -110,5 +111,16 @@ display: none;
         font-weight: 700;
         padding: 1em 0 0.5em 0;
         }
-           
-    
+                   
+        .descricao-imagem {
+            padding: 80px;
+            width: 28%;
+        }     
+        .descricao {
+text-align: center;
+background-color: transparent;
+    border: 2px solid black;
+    text-transform:uppercase;
+    font-size: 18px;
+    padding: 1em 0 0.5em 0;
+        }
