@@ -116,14 +116,8 @@ display: none;
             padding: 80px;
             width: 28%;
         }     
-        .descricao {
-text-align: center;
-background-color: transparent;
-    border: 2px solid black;
-    text-transform:uppercase;
-    font-size: 18px;
-    padding: 1em 0 0.5em 0;
-        }
+        
+        
         .swiper-slide img{
             width: 48%;
         }
@@ -131,6 +125,7 @@ background-color: transparent;
             display: flex;
             justify-content: space-between;
             margin-bottom: 0,5em;
+            
         }
         .card-botoes{
             display: flex;
@@ -150,4 +145,19 @@ background-color: transparent;
             color: var(--laranja);
             font-weight: 700;
             text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ padding: 10px 10px;
+ margin: 50px;
         }
+        .descricao-texto{
+            text-align: center;
+            
+        }
+        .descricao-titulo-livro{
+text-align: center;
+        }
+        .descricao-imagem2 {
+            height: 300px;
+            width: 28%;
+        }
+        
